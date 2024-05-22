@@ -1,0 +1,173 @@
+body, .menuM{
+    background:linear-gradient(90deg,  rgb(244, 244, 245), rgb(218, 217, 217)) ;
+}
+
+.menu{
+    background:linear-gradient(90deg,  rgb(244, 244, 245), rgb(218, 217, 217)) ;
+    width: 100%;
+    height: 10vh;
+    padding: 0 5%;
+    
+}
+
+.seccion-uno, .seccion-dos{
+    width: 100%;
+    min-height: 90vh;
+    padding: 0 5%;
+}
+
+.seccion-uno .img, .seccion-tres .img{
+    width: 280px;
+    height: 280px;
+}
+
+.seccion-uno button{
+    width: 100px;
+}
+
+.seccion-tres .parrafo{
+    width: 550px;
+}
+
+.tecno{
+    width: 100%;
+    min-height: 70vh ;
+    padding: 0 5%;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    padding: 0 5%;
+}
+
+.footer a img{
+    filter: invert(39%) sepia(80%) saturate(5380%) hue-rotate(209deg) brightness(100%) contrast(99%);
+}
+
+.seccion-tres{
+    width: 100%;
+    min-height: 90vh;
+    padding: 0 5%;
+
+}
+* SECCION SKILLS O HABLILIDADES */
+
+.contenedor-skills {
+    margin-top: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ff0000;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contenedor-skills .skill {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.contenedor-skills .skill .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-skills .skill .lista {
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+}
+
+.contenedor-skills .skill .barra {
+    background-color: #919191;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0px;
+}
+
+.contenedor-skills .skill .barra .barra-progreso1 {
+    background-color: #fff;
+    width: 95%;
+    height: 6px;
+    animation: progreso1 1s ease-out;
+}
+
+.contenedor-skills .skill .barra .barra-progreso2 {
+    background-color: #fff;
+    width: 70%;
+    height: 6px;
+    animation: progreso2 1s ease-out;
+}
+
+.contenedor-skills .skill .barra .barra-progreso3 {
+    background-color: #fff;
+    width: 85%;
+    height: 6px;
+    animation: progreso3 1s ease-out;
+}
+
+.contenedor-skills .skill .barra .barra-progreso4 {
+    background-color: #fff;
+    width: 60%;
+    height: 6px;
+    animation: progreso4 1s ease-out;
+}
+
+@keyframes progreso1 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 95%;
+    }
+}
+
+@keyframes progreso2 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes progreso3 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 85%;
+    }
+}
+
+@keyframes progreso4 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+/* Estilo general para el logo */
+.logo-img {
+    height: 50px; /* Tamaño inicial del logo */
+    width: auto;  /* Ajuste automático del ancho para mantener la proporción */
+  }
+  
+  /* Ajuste para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .logo-img {
+      height: 40px; /* Reducir tamaño en pantallas pequeñas */
+    }
+  }
+  
+  /* Ajuste para pantallas muy pequeñas */
+  @media (max-width: 576px) {
+    .logo-img {
+      height: 30px; /* Reducir más en pantallas muy pequeñas */
+    }
+  }
